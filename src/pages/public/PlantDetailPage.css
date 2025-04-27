@@ -1,0 +1,58 @@
+.plant-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(60, 120, 60, 0.07);
+    padding: 2rem;
+  }
+  .plant-detail-image img {
+    max-width: 340px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(60, 120, 60, 0.10);
+  }
+  .plant-detail-info {
+    flex: 1;
+    min-width: 260px;
+  }
+  .plant-detail-category {
+    color: #388e3c;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .plant-detail-price {
+    color: #2e7d32;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .plant-detail-description {
+    margin-bottom: 1.2rem;
+  }
+  .plant-detail-care h3 {
+    margin-top: 1.2rem;
+    color: #388e3c;
+  }
+  .plant-detail-addcart {
+    background: #43a047;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background 0.2s;
+  }
+  .plant-detail-addcart:hover {
+    background: #2e7d32;
+  }
+  .plant-detail-loading,
+  .plant-detail-error {
+    text-align: center;
+    color: #888;
+    padding: 2rem 0;
+  }

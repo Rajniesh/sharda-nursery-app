@@ -5,6 +5,9 @@
   "dependencies": {
     "@aws-amplify/auth": "^6.12.3",
     "@aws-amplify/ui-react": "^6.11.0",
+    "@aws-sdk/client-dynamodb": "^3.797.0",
+    "@aws-sdk/client-s3": "^3.797.0",
+    "@aws-sdk/lib-dynamodb": "^3.797.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -12,6 +15,7 @@
     "aws-amplify": "^6.14.3",
     "firebase": "^11.6.0",
     "react": "^19.1.0",
+    "react-bootstrap-icons": "^1.11.5",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.5.1",
     "react-scripts": "5.0.1",

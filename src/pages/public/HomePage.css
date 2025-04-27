@@ -1,0 +1,162 @@
+.home-container {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .hero-section {
+    background-color: #e0f7e9;
+    padding: 80px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #2e7d32;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #4b4b4b;
+    margin-bottom: 30px;
+  }
+  
+  .shop-btn {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .shop-btn:hover {
+    background-color: #2e7d32;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f0fdf4;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px 0;
+  }
+  .home-plants-section {
+    margin: 3rem 0 2rem 0;
+    padding: 0 1rem;
+  }
+  .home-plants-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+  }
+  .home-plants-header h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #2e7d32;
+  }
+  .view-all-link {
+    color: #388e3c;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .view-all-link:hover {
+    color: #1b5e20;
+    text-decoration: underline;
+  }
+  .home-plants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  .loading-spinner {
+    text-align: center;
+    color: #388e3c;
+    padding: 2rem 0;
+  }
+  
+  .testimonials-section {
+    background: #f0fdf4;
+    padding: 3rem 1rem;
+  }
+  .testimonials-section h2 {
+    color: #2e7d32;
+    margin-bottom: 1.5rem;
+  }
+  .testimonials-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .testimonial-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(60, 120, 60, 0.07);
+    padding: 1.5rem 1.2rem;
+    max-width: 320px;
+    min-width: 220px;
+    font-style: italic;
+  }
+  .testimonial-card span {
+    display: block;
+    margin-top: 1rem;
+    color: #388e3c;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .newsletter-section {
+    background: #e0f7e9;
+    padding: 2.5rem 1rem;
+    text-align: center;
+  }
+  .newsletter-section h2 {
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+  }
+  .newsletter-form {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .newsletter-form input[type="email"] {
+    padding: 0.6rem 1rem;
+    border: 1px solid #b2dfdb;
+    border-radius: 6px;
+    font-size: 1rem;
+    min-width: 220px;
+  }
+  .newsletter-form button {
+    background: #43a047;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .newsletter-form button:hover {
+    background: #2e7d32;
+  }

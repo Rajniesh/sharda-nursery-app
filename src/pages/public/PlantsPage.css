@@ -1,0 +1,79 @@
+.plants-shop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .plants-shop-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .plants-shop-header h1 {
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plants-shop-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  
+  .plants-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .category-btn {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .category-btn.active,
+  .category-btn:hover {
+    background: #43a047;
+    color: #fff;
+  }
+  
+  .plants-sort {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .plants-sort select {
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #b2dfdb;
+    font-size: 1rem;
+  }
+  
+  .plants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .loading-spinner {
+    text-align: center;
+    color: #388e3c;
+    padding: 2rem 0;
+  }
+  
+  .no-plants-msg {
+    text-align: center;
+    color: #888;
+    font-size: 1.1rem;
+    padding: 2rem 0;
+  }

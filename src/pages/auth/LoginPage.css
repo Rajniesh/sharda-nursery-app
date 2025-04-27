@@ -1,0 +1,112 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f8fa;
+  }
+  
+  .login-container {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .login-container h2 {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    color: #2e8b57;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .login-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.2rem;
+  }
+  
+  .login-form input {
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+  }
+  
+  .login-form input:focus {
+    border-color: #2e8b57;
+  }
+  
+  .password-input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .toggle-password {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: -2rem;
+    color: #888;
+    outline: none;
+  }
+  
+  .login-btn {
+    background: #2e8b57;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+  }
+  
+  .login-btn:disabled {
+    background: #b2d8c5;
+    cursor: not-allowed;
+  }
+  
+  .login-error {
+    background: #ffeaea;
+    color: #d32f2f;
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 0.97rem;
+  }
+  
+  .login-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    text-align: center;
+    font-size: 0.97rem;
+  }
+  
+  .login-links a {
+    color: #2e8b57;
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+  }
+  
+  .login-links a:hover {
+    text-decoration: underline;
+  }
